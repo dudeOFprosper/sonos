@@ -1,9 +1,9 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
-  height: 40vmin;
+  max-height: 150px;
 }
 
 .App-header {
@@ -18,4 +18,21 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.Body {
+  margin: 40px;
+}
+
+.Bios {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Bio {
+  width: 50%;
+}
+
+.photo {
+  max-width: 200px;
 }
